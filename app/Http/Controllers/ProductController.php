@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Product;
+use App\Models\Category;
 use Illuminate\Http\Request;
 
 class ProductController extends Controller
@@ -12,7 +13,9 @@ class ProductController extends Controller
      */
     public function index()
     {
-        //
+        $products = Product::all();
+        $categories = Category::all(); // Assuming you have a Category model
+        return view('admin.products.index',['products' => $products, 'categories' => $categories]);
     }
 
     /**
@@ -28,7 +31,25 @@ class ProductController extends Controller
      */
     public function store(Request $request)
     {
-        //
+
+        //product image
+        if($request->image){
+            $fileName = time().'_'.$request->file('image')->getClientOriginalName();
+            $filePath =$request->image->move('storage/events/branding', $fileName);
+
+            $product_image = $filePath;
+        }else{
+            $product_image = 'storage/events/default-event.png';
+        }
+
+        $product = new Product();
+        $product->name = $request->name;
+        $product->description = $request->description;
+        $product->price = $request->price;
+        $product->category_id = $request->category;
+        $product->image = $product_image;
+        $product->save();
+        return redirect()->back();
     }
 
     /**
