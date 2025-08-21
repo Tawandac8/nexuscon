@@ -23,7 +23,7 @@ class CreateUserSeeder extends Seeder
         $nexus = User::create([
             'name' => 'Nexus',
             'email' => 'sales@nexuscontech.co.zw',
-            'password' => Hash::make('ch1b@y1w@')
+            'password' => Hash::make('nexuscon@123')
         ]);
     }
 }
