@@ -31,7 +31,7 @@ Products
                             <td>{{ $product->category->name }}</td>
                             <td>{{ $product->price }}</td>
                             <td>
-                                
+
                             </td>
                         </tr>
                         @endforeach
@@ -49,7 +49,7 @@ Products
                     @csrf
                     <div class="mb-3">
                         <label for="productName" class="form-label">Product Image</label>
-                        <input type="file" class="form-control" id="productName" name="image" placeholder="Enter product name" required>      
+                        <input type="file" class="form-control" id="productName" name="image" placeholder="Enter product name" required>
                     </div>
                     <div class="mb-3">
                         <label for="productName" class="form-label">Product Name</label>
@@ -70,10 +70,10 @@ Products
                     </div>
                     <div class="mb-3">
                         <label for="productPrice" class="form-label">Product Price</label>
-                        <input type="number" class="form-control" id="productPrice" name="price" placeholder="Enter product price" >
+                        <input type="number" class="form-control" id="productPrice" name="price" placeholder="Enter product price" required>
                     </div>
 
-                    <button type="submit" class="btn btn-primary">Add Product</button>  
+                    <button type="submit" class="btn btn-primary">Add Product</button>
                 </form>
             </div>
         </div>
