@@ -53,7 +53,7 @@ We are Zimbabweans with the Vision to Build and Power Zimbabwe and Africa.
                     <div class="p-lg-5 pe-lg-0">
                         <h6 class="text-primary">About Us</h6>
                         <h1 class="mb-4">Quality Products, Exceptional Service</h1>
-                        <p>At NexusCon, we believe that modern Africa families and businesses need energy and smart building
+                        <p>At NEXUSOLAR, we believe that modern Africa families and businesses need energy and smart building
 solutions for a sustainable future. Since 2023, our mission has been to empower individuals and businesses
 by efficiently supplying solar products, lighting solutions and accessories, electrical solutions, building
 solutions and protective clothing that are accessible and easy to manage. We’re not just providing these
