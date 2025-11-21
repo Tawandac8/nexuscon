@@ -26,7 +26,7 @@ class ProductController extends Controller
         
         $output = '';
         foreach ($products as $product) {
-            $output .= '<div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
+            $output .= '<div class="col-md-3 mb-3 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="service-item rounded overflow-hidden">
                         <img class="img-fluid" src="img/img-600x400-1.jpg" alt="">
                         <div class="position-relative p-4 pt-4">
