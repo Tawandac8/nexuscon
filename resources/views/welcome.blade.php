@@ -51,7 +51,7 @@ We are Zimbabweans with the Vision to Build and Power Zimbabwe and Africa.
         @endforeach
     </div>
     {{-- Products --}}
-    <div class="row container products-tab mb-5">
+    <div class="row container products-tab mb-5 mx-auto">
         
     </div>
     {{-- EndProducts --}}
