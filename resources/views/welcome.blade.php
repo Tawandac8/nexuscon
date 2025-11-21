@@ -44,9 +44,18 @@ We are Zimbabweans with the Vision to Build and Power Zimbabwe and Africa.
     <div class="categories mb-5">
         <a href="#" class="btn btn-dark rounded-0 py-2 px-lg-3 text-primary text-uppercase font-weight-bold">Products<i class="fa fa-arrow-right ms-3"></i></a>
         @foreach($categories as $category)
-        <a href="" class="btn btn-primary rounded-0 py-2 my-1 px-lg-3 text-dark text-sm">{{ $category->name }}</a>
+        @if($category->products->count() == 0)
+            @continue
+        @endif
+        <span onclick="fetchCategoryProducts('{{ $category->id }}')" class="btn btn-primary rounded-0 py-2 my-1 px-lg-3 text-dark text-sm">{{ $category->name }}</span>
         @endforeach
     </div>
+    {{-- Products --}}
+    <div class="row container products-tab mb-5">
+        
+    </div>
+    {{-- EndProducts --}}
+    
     {{-- Categories --}}
 
     <!-- About Start -->
@@ -498,4 +507,21 @@ We are Zimbabweans with the Vision to Build and Power Zimbabwe and Africa.
         </div>
     </div> -->
     <!-- Testimonial End -->
+@endsection
+
+@section('scripts')
+<script> 
+        function fetchCategoryProducts(categoryId) {
+            $.ajax({
+                url: '/products/category/' + categoryId,
+                method: 'GET',
+                success: function(response) {
+                    $('.products-tab').html(response);
+                },
+                error: function() {
+                    alert('Failed to fetch products for the selected category.');
+                }
+            });
+        } 
+</script>
 @endsection

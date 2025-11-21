@@ -20,6 +20,27 @@ class ProductController extends Controller
         return view('admin.products.index',['products' => $products, 'categories' => $categories]);
     }
 
+    function showByCategory($category)
+    {
+        $products = Product::where('category_id', $category)->get();
+        
+        $output = '';
+        foreach ($products as $product) {
+            $output .= '<div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item rounded overflow-hidden">
+                        <img class="img-fluid" src="img/img-600x400-1.jpg" alt="">
+                        <div class="position-relative p-4 pt-4">
+                            <h5 class="mb-3">'.$product->name.'</h5>
+                            <p>'.$product->description.'</p>
+                            <span class="btn btn-primary rounded-0 py-2 px-lg-3 text-dark text-uppercase font-weight-bold">'.$product->price.'</a>
+                        </div>
+                    </div>
+                </div>';
+        }
+
+        return $output;
+    }
+
     /**
      * Show the form for creating a new resource.
      *
