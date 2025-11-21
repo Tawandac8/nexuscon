@@ -32,7 +32,7 @@ class ProductController extends Controller
                         <div class="position-relative p-4 pt-4">
                             <h5 class="mb-3">'.$product->name.'</h5>
                             <p>'.$product->description.'</p>
-                            <span class="btn btn-primary rounded-0 py-2 px-lg-3 text-dark text-uppercase font-weight-bold">'.$product->price.'</a>
+                            <span class="btn btn-primary rounded-0 py-2 px-lg-3 text-dark text-uppercase font-weight-bold">$'.$product->price.'</a>
                         </div>
                     </div>
                 </div>';
