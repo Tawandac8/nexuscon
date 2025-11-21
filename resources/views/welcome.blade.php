@@ -6,7 +6,7 @@ We are Zimbabweans with the Vision to Build and Power Zimbabwe and Africa.
 
 @section('content')
 <!-- Carousel Start -->
-    <div class="container-fluid p-0 pb-5 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container-fluid mb-0 p-0 wow fadeIn" data-wow-delay="0.1s">
         <div class="owl-carousel header-carousel position-relative">
             <div class="owl-carousel-item position-relative" data-dot="<img src='img/carousel-1.jpg'>">
                 <img class="img-fluid" src="img/carousel-1.jpg" alt="">
@@ -39,6 +39,15 @@ We are Zimbabweans with the Vision to Build and Power Zimbabwe and Africa.
         </div>
     </div>
     <!-- Carousel End -->
+
+    {{-- Categories --}}
+    <div class="categories mb-5">
+        <a href="#" class="btn btn-dark rounded-0 py-2 px-lg-3 text-primary text-uppercase font-weight-bold">Products<i class="fa fa-arrow-right ms-3"></i></a>
+        @foreach($categories as $category)
+        <a href="" class="btn btn-primary rounded-0 py-2 my-1 px-lg-3 text-dark text-sm">{{ $category->name }}</a>
+        @endforeach
+    </div>
+    {{-- Categories --}}
 
     <!-- About Start -->
     <div id="about" class="container-fluid bg-light overflow-hidden mb-5 px-lg-0">
