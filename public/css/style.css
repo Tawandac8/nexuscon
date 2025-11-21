@@ -1,8 +1,8 @@
 /********** Template CSS **********/
 :root {
-    --primary: #fd982d;
+    --primary: #FFCE00;
     --light: #F6F7F8;
-    --dark: #1A2A36;
+    --dark: #101012;
 }
 
 .fw-medium {
@@ -91,7 +91,7 @@
 .navbar .navbar-nav .nav-link {
     margin-right: 30px;
     padding: 25px 0;
-    color: var(--dark);
+    color: var(--light);
     font-size: 15px;
     font-weight: 500;
     text-transform: uppercase;

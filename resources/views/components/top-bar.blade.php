@@ -3,8 +3,7 @@
             <div class="col-lg-7 px-5 text-start">
                 <div class="h-100 d-inline-flex align-items-center me-4">
                     <small class="fa fa-map-marker-alt text-primary me-2"></small>
-                    <small>No.1 Josiah Chinamano Street
- Textile Mills Complex, Bulawayo</small>
+                    <small>137 Mainstreet, Main Street Mall, Btwn 14th & 15th Ave, Byo</small>
                 </div>
             </div>
             <div class="col-lg-5 px-5 text-end">
@@ -13,16 +12,16 @@
                     <small> +263 712 694 559</small>
                 </div>
                 <div class="h-100 d-inline-flex align-items-center mx-n2">
-                    <a class="btn btn-square btn-link rounded-0 border-0 border-end border-secondary" href=""><i class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-square btn-link rounded-0" href=""><i class="fab fa-instagram"></i></a>
+                    <a class="btn btn-square btn-link rounded-0 border-0 border-end border-secondary" href="https://www.facebook.com/profile.php?id=61569985691079"><i class="fab fa-facebook-f"></i></a>
+                   
                 </div>
             </div>
         </div>
     </div>
     <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0">
+    <nav class="navbar navbar-expand-lg bg-dark navbar-light sticky-top p-0">
         <a href="index.html"  class="navbar-brand d-flex align-items-center border-end px-4 px-lg-5">
-            <img style="width: 150px" src="img/nexus-logo.jpg" alt="">
+            <img style="width: 150px" src="img/nexus-logo.png" alt="">
         </a>
         <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
@@ -45,7 +44,7 @@
                 </div> -->
                 <a href="#quote" class="nav-item nav-link">Contact</a>
             </div>
-            <a href="#quote" class="btn btn-primary rounded-0 py-4 px-lg-5 d-none d-lg-block">Get A Quote<i class="fa fa-arrow-right ms-3"></i></a>
+            <a href="#quote" class="btn btn-primary rounded-0 py-4 px-lg-5 d-none d-lg-block text-dark">Get A Quote<i class="fa fa-arrow-right ms-3"></i></a>
         </div>
     </nav>
     <!-- Navbar End -->

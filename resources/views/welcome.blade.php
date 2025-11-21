@@ -16,7 +16,7 @@ We are Zimbabweans with the Vision to Build and Power Zimbabwe and Africa.
                             <div class="col-10 col-lg-8">
                                 <h1 class="display-2 text-white animated slideInDown">Solar, Redefined for the Modern Lifestyle.</h1>
                                 <p class="fs-5 fw-medium text-white mb-4 pb-3">Every solar panel we install is a promise – a promise of a cleaner footprint, robust savings that grow over time.</p>
-                                <a href="#service" class="btn btn-primary rounded-pill py-3 px-5 animated slideInLeft">Read More</a>
+                                <a href="#service" class="btn btn-primary rounded-pill py-3 px-5 animated slideInLeft text-dark">Read More</a>
                             </div>
                         </div>
                     </div>
@@ -30,7 +30,7 @@ We are Zimbabweans with the Vision to Build and Power Zimbabwe and Africa.
                             <div class="col-10 col-lg-8">
                                 <h1 class="display-2 text-white animated slideInDown">Illuminate Your World. Curate Your Feeling.</h1>
                                 <p class="fs-5 fw-medium text-white mb-4 pb-3">Lighting isn't just about brightness; it's about the very atmosphere you breathe. We believe light shapes mood, enhances focus, and transforms spaces.</p>
-                                <a href="#service" class="btn btn-primary rounded-pill py-3 px-5 animated slideInLeft">Read More</a>
+                                <a href="#service" class="btn btn-primary rounded-pill py-3 px-5 animated slideInLeft text-dark">Read More</a>
                             </div>
                         </div>
                     </div>
@@ -53,13 +53,8 @@ We are Zimbabweans with the Vision to Build and Power Zimbabwe and Africa.
                     <div class="p-lg-5 pe-lg-0">
                         <h6 class="text-primary">About Us</h6>
                         <h1 class="mb-4">Quality Products, Exceptional Service</h1>
-                        <p>At NexusCon, we believe that modern Africa families and businesses need energy and smart building
-solutions for a sustainable future. Since 2023, our mission has been to empower individuals and businesses
-by efficiently supplying solar products, lighting solutions and accessories, electrical solutions, building
-solutions and protective clothing that are accessible and easy to manage. We’re not just providing these
-solutions – we’re giving people control over their lives with smart, user-friendly solutions tailored for modern
-life.</p>
-                        <a href="" class="btn btn-primary rounded-pill py-3 px-5 mt-3">Explore More</a>
+                        <p>Nexuscon Marketing is a renewable energy solutions provider committed to empowering individuals and businesses to become energy independent. With a focus on solar power, battery storage, and off-grid systems, they deliver innovative and sustainable energy alternatives tailored for a greener future.</p>
+                        <a href="" class="btn btn-primary rounded-pill py-3 px-5 mt-3 text-dark">Explore More</a>
                     </div>
                 </div>
             </div>
@@ -167,7 +162,7 @@ life.</p>
                             <div class="col-6">
                                 <div class="d-flex align-items-center">
                                     <div class="btn-lg-square bg-primary rounded-circle">
-                                        <i class="fa fa-check text-white"></i>
+                                        <i class="fa fa-check text-dark"></i>
                                     </div>
                                     <div class="ms-4">
                                         <p class="mb-0">Quality</p>
@@ -178,7 +173,7 @@ life.</p>
                             <div class="col-6">
                                 <div class="d-flex align-items-center">
                                     <div class="btn-lg-square bg-primary rounded-circle">
-                                        <i class="fa fa-user-check text-white"></i>
+                                        <i class="fa fa-user-check text-dark"></i>
                                     </div>
                                     <div class="ms-4">
                                         <p class="mb-0">Expert</p>
@@ -189,7 +184,7 @@ life.</p>
                             <div class="col-6">
                                 <div class="d-flex align-items-center">
                                     <div class="btn-lg-square bg-primary rounded-circle">
-                                        <i class="fa fa-drafting-compass text-white"></i>
+                                        <i class="fa fa-drafting-compass text-dark"></i>
                                     </div>
                                     <div class="ms-4">
                                         <p class="mb-0">Free</p>
@@ -200,7 +195,7 @@ life.</p>
                             <div class="col-6">
                                 <div class="d-flex align-items-center">
                                     <div class="btn-lg-square bg-primary rounded-circle">
-                                        <i class="fa fa-headphones text-white"></i>
+                                        <i class="fa fa-headphones text-dark"></i>
                                     </div>
                                     <div class="ms-4">
                                         <p class="mb-0">Customer</p>
@@ -369,7 +364,7 @@ life.</p>
                                     <textarea class="form-control border-0" placeholder="Special Note"></textarea>
                                 </div>
                                 <div class="col-12">
-                                    <button class="btn btn-primary rounded-pill py-3 px-5" type="submit">Submit</button>
+                                    <button class="btn btn-primary rounded-pill py-3 px-5 text-dark" type="submit">Submit</button>
                                 </div>
                             </div>
                         </form>
